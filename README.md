@@ -32,19 +32,6 @@ This will:
 
 After installation, the `juicyjson` command is available system-wide.
 
-### Dependencies
-
-- **APT**: `jq` (required for JSON processing)
-- **Python**: `prompt_toolkit` (for interactive prompt and autocompletion)
-
-Install Python dependencies manually if needed:
-
-```bash
-pip install -r requirements.txt
-```
-
-Ensure `vim` is installed on your system for JSON input and editing.
-
 ## Usage
 
 Run the tool from the command line using:
