@@ -22,7 +22,7 @@ class App:
             args=(stop_event, "Now, dump that ugly-ass json in vim")
         )
         animation_thread.start()
-        time.sleep(3)
+        time.sleep(1)
         stop_event.set()
         animation_thread.join()
 
